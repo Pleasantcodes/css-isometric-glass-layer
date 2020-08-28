@@ -20,11 +20,11 @@ body {
 
 .box:hover {
     transform: rotate(-45deg) skewY(25deg) translate(20px, -20px);
-    box-shadow: -60px 40px 4px rgba(0, 0, 0, .2);
+    box-shadow: -60px 100px 60px rgba(0, 0, 0, .5);
 }
 
 .box:before {
-    content: " ";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ body {
 }
 
 .box:after {
-    content: " ";
+    content: '';
     position: absolute;
     bottom: -32px;
     left: 0;
@@ -81,8 +81,8 @@ body {
 }
 
 .box:hover .glass:nth-child(2) {
-    top: -40px;
-    left: 30px;
+    top: -80px;
+    left: 60px;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: -2px 2px 10px rgba(0, 0, 0, .2);
 }
